@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: stepdefs.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 89.41 s <<< FAILURE! -- in stepdefs.TestRunner
+Login Feature.Login Failure Scenario using test data as parameter -- Time elapsed: 42.91 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...you have entered is [wrong]> but was:<...you have entered is [invalid]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdefs.Login_Stepdefs.i_should_be_able_to_see_the_error_message(Login_Stepdefs.java:77)
+	at ✽.I should be able to see the error message "The email address or password you have entered is wrong"(file:///B:/sai/Testing%20work/New%20folder/Cucumber_Project/src/test/java/login.feature:19)
+
